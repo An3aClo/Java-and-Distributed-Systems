@@ -6,8 +6,8 @@ public class MyThread {
         Thread t1 = new Thread(new Work("t1"));
         t1.start();
         
-        Thread t2 = new Thread(new Work("t2"));
-        t2.start();
+//        Thread t2 = new Thread(new Work("t22"));
+//        t2.start();
     }
 
 }
