@@ -28,6 +28,7 @@ public class MyArrayList {
         //Iterator prints the array lists
         Iterator myList = list.iterator();// import java.util.*
         // hasNext();
+        myList.toString();
         while (myList.hasNext()) {
             System.out.println("Names printed with an iterator: " + myList.next());
         }

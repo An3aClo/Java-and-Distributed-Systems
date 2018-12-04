@@ -11,7 +11,7 @@ public class MyHashMap {
         for (int i = 1; i < 4; i++) {
             String name = JOptionPane.showInputDialog("Enter name");
             int id = Integer.parseInt(JOptionPane.showInputDialog("Enter ID"));
-            myMap.put(id, name);
+            myMap.put(id, name); 
         }
         System.out.println(myMap);
 
