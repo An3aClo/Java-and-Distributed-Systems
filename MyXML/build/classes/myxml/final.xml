@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE suplier SYSTEM "details.dtd">
+
+
+<suplier >
+    <name>Andrea</name>    
+    <address>
+        <street>Correli Ave</street>
+        <city>Cape Town</city>
+        <zip>8000</zip>
+    </address>
+    <product vinNumber ="1111">
+        <type>Shoes</type>
+        <price>R100</price>
+        <quantity>7</quantity>
+    </product>    
+</suplier>

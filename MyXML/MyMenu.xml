@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<MyMenu>
+    <food>
+        <item>Brownie</item>
+        <price>R10</price>
+        <description>Choclate brownie</description>
+        <kj>100</kj>
+    </food>
+    
+     <food>
+        <item>Pizza</item>
+        <price>150</price>
+        <description>Bacon pizza</description>
+        <kj>200</kj>
+    </food>
+    
+     <food>
+        <item>Burger</item>
+        <price>100</price>
+        <description>Beef burger</description>
+        <kj>150</kj>
+    </food>
+    
+</MyMenu>
