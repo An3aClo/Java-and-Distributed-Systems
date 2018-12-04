@@ -10,6 +10,7 @@ public class Server {
         Socket soc = servSoc.accept();
         DataInputStream cin = new DataInputStream(soc.getInputStream());
         DataOutputStream cout = new DataOutputStream(soc.getOutputStream());
+    
         System.out.println("Client sent this: " + cin.readUTF());
         cout.writeUTF("Im out from the server.");
     }

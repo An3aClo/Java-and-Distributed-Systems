@@ -9,11 +9,11 @@ public class Server {
     
     public Server() throws IOException{
         ServerSocket servSoc = new ServerSocket(8090);
-        while (true) {        
+//        while (true) {        
             Socket soc = servSoc.accept();
             Thread t1 = new Thread(new Shape(soc));
             t1.start();
-        }
+//        }
     }
 
     public static void main(String[] args) throws IOException {
@@ -54,7 +54,8 @@ class Shape implements Runnable {
                 cout.writeUTF(rectangle());
             }
         } catch (IOException ex) {
-            Logger.getLogger(Shape.class.getName()).log(Level.SEVERE, null, ex);
+            //Logger.getLogger(Shape.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println("Error: "+ex);
         }
     }
     
